@@ -1,0 +1,115 @@
+@charset "utf-8";
+/* CSS Document */
+.opening-container {
+	height: 620px;
+	background: #F99B13;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.title {
+	color: white;
+	border: black;
+	display: flex;
+	align-self: center;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+}
+
+#logo {
+	border-radius: 60px;
+}
+
+button {
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	font-size: 2em;
+	height: 45px;
+	color: #F99B13;
+	margin: 10px;
+	border-radius: 15px;
+	margin-top: 20px;
+}
+
+.container-text {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	padding-top: 10px;
+}
+
+.marketing-text {
+	width: 50%;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	font-size: 16px;
+	margin-left: 20px;
+}
+
+.side-pic {
+	width: 40%;
+	margin-left: auto;
+	border-radius: 20px;
+	margin-top: 15px;
+}
+
+.projects-container {
+	display: flex;
+	width: 100%;
+	flex-wrap: wrap;
+}
+
+.columns {
+	width: 50%;
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: column;
+	justify-content: center;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	text-align: center;
+}
+
+.thumbnail {
+	width: 25%;
+	justify-content: center;
+}
+
+.row-container {
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.left_half {
+	width: 50%;
+	background: #0B3849;
+	color: white;
+	text-align: center;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+}
+
+.right_half {
+	width: 50%;
+	background: #025866;
+	color: white;
+	text-align: center;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+}
+
+.foot-icons {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.foot-thumbnail {
+	width: 20%;
+	height: 20%;
+	border-radius: 30px;
+	margin: 2.5%;
+}
+
+.footer {
+	background: #011C29;
+	color: white;
+	font-weight: 100;
+	text-align: center;
+}
